@@ -1,0 +1,60 @@
+/*tablet layout*/
+
+@media only screen and (min-width:200px) and (max-width:991px){
+  .inner_menu{
+   background: none;
+   min-height: auto;
+  }
+  .mean-container .mean-nav{
+    margin-top: 0;
+    width: 80%;
+  }
+  .inner_header{
+    padding-top: 20px 0;
+  }
+}
+/*mobile layout*/
+
+@media only screen and (min-width:200px) and (max-width:480px){
+
+  .mini_menu{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+ .inner_hero{
+  width: 100%;
+  flex-direction: column;
+}
+#hero_area h1{
+  line-height: 1.2em;
+}
+
+#people_area h1{
+  line-height: 1.2em;
+}
+
+.inner_work{
+  width: 100%;
+  flex-direction: column;
+}
+.card{
+  flex-direction: column;
+  width: 100%;
+}
+.inner-card{
+  flex-direction: column;
+  width: 100%;
+}
+
+#work_area h1 {
+    color: #3c4761;
+    font-size: 41px;
+    text-align: center;
+    line-height: 1em;
+}
+
+#testimonial_area h1 {
+	line-height: 1.1em;
+}
+}
+

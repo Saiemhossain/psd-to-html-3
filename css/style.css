@@ -1,0 +1,292 @@
+/*common css*/
+body{
+  font-size: 16px;
+  line-height: 1.5em;
+font-family: Titillium Web;
+  margin: 0;
+}
+.container{
+  margin: 0 auto;
+  max-width: 960px;
+  width: 96%;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+/*top header css*/
+
+#top_header_area{
+   background: #87509c;
+   padding: 15px 0;
+   width: 100%;
+}
+.inner_top_header{
+  overflow: hidden;
+}
+.header_area{
+  width: 100%;
+  clear: both;
+}
+#main_header_area{
+  background: #87509c;
+ clear: both;
+  width: 100%;
+}
+.inner_header{
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+.inner_menu ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+.inner_menu ul li{
+  display: inline-block;
+  margin: 0 5px;
+}
+.inner_menu ul li a{
+  text-transform: uppercase;
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
+.inner_menu h1{
+  text-align: center;
+  color:#f7f3ea ;
+  font-family:Titillium Web;
+  font-size: 48px;
+  line-height: 1.1em;
+}
+.center{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*hero area css*/
+
+#hero_area{
+  background: #17c2a4;
+  padding: 20px 0;
+  width: 100%;
+}
+.inner_hero{
+  display: flex;
+  padding: 20px;
+}
+
+#hero_area h1{
+text-align: center;
+font-size: 40px;
+color: #ffffff;
+font-family: Bold;
+}
+#hero_area p{
+  text-align: center;
+  font-size: 16px;
+  color: #ffffff;
+}
+#hero_area h3{
+  color: #ffffff;
+}
+
+/*work area css*/
+#work_area{
+  background: #e7f1f8;
+  padding: 20px 0;
+  width: 100%;
+}
+.inner_work{
+  display: flex;
+  padding: 20px;
+}
+.img-section{
+  height: 8rem;
+  border-radius: 50%;
+}
+#work_area h1{
+  color: #3c4761;
+  font-size: 41px;
+  text-align: center;
+}
+#work_area p{
+  color: #3c4761;
+  font-size: 16px;
+  text-align: center;
+}
+#work_area h3{
+  color: #3c4761;
+  font-size: 24px;
+}
+/*social area css*/
+.social_area{
+  display: block;
+  color: #fff;
+  cursor: pointer;
+}
+.social_area:hover{
+  background: #bdd1df;
+}
+.switch{
+  text-align: center;
+  color: #808080;
+}
+.all{
+  background: #fff;
+  color: #808080;
+}
+
+/*testimonial area css*/
+
+#testimonial_area{
+  background: #ffdd99;
+  padding: 20px 0;
+  width: 100%;
+}
+.card{
+  display: flex;
+  padding: 20px;
+}
+.inner-card{
+    display: flex;
+  padding: 20px;
+
+}
+#testimonial_area h1{
+  font-size: 40px;
+  text-align: center;
+  color: #393939;
+}
+#testimonial_area p{
+  font-size: 18px;
+  text-align: center;
+  color: #393939;
+}
+.project-btn{
+  background-color: #17c2a4;
+  padding: 15px ,14px;
+  color: #fff;
+}
+button{
+  background-color: #eb7d4b;
+  color: #fff;
+  padding: 15px, 14px;
+}
+
+/*people area css*/
+#people_area{
+  background: #d74680;
+  padding: 20px 0;
+  width: 100%;
+}
+#people_area h1{
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+}
+hr{
+  width: 103px;
+  height: 2px;
+  color: #b73c6d;
+}
+
+#people_area p{
+  font-style: Italic;
+  text-align: center;
+  color: #ffffff;
+  font-size: 21px;
+font-family:Titillium Web;
+}
+#people_area span{
+  font-style: Italic;
+  text-align: center;
+  color: #ffffff;
+  font-size: 18px;
+  font-family:Titillium Web;
+}
+#people_area h3{
+  font-style: bold;
+  text-align: center;
+  color: #ffffff;
+  font-size: 24px;
+  font-family:Titillium Web;
+}
+.people-img{
+  border-radius: 50%;
+  height: 8rem;
+  float: left;
+}
+/*footer area css*/
+
+#footer_area{
+  background: #3c5499;
+  padding: 20px 0;
+  width: 100%;
+}
+#footer_area h1{
+ color: #ffffff;
+ text-align: center;
+ font-size: 40px;
+ font-style: bold;
+}
+#footer_area p{
+ color: #ffffff;
+ text-align: center;
+ color: #ebedf3;
+}
+.row{
+  text-align: center;
+}
+.text{
+  background: #273a71;
+  color: #969cb2;
+}
+.submit{
+  text-align: center;
+}
+.message{
+  border: 1px solid#30bae7;
+  background: #30bae7;
+}
+#end-section{
+  background: #344b8e;
+  padding: 20px 0;
+  width: 100%;
+}
+#end-section ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+#end-section li{
+  display: inline-block;
+  padding: 0 5px;
+  position: relative;
+}
+#end-section ul li a{
+  display: block;
+  text-decoration: none;
+}
+#end-section ul li a:hover{
+  color: aqua;
+
+}
+  
+.twitter{
+  color: #;
+}
+.social{
+  color: #fff;
+}
+
+ 
+
+  
+
+
